@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <variables>
+      <vargroup name="(Global)" kind="GLOBAL">
+         <var name="bCommand" type="BOOL" init="TRUE">
+         <varinfo type="tag" data="Main command"/>
+         <varinfo type="desc" data="main activation command"/>
+         <varinfo type="embed" data="&lt;syb&gt;"/>
+         </var>
+         <var name="tPerio" type="DINT" init="1000">
+         <varinfo type="tag" data="Slow period"/>
+         <varinfo type="desc" data="default period (milliseconds) - that&apos;s the period used in &apos;slow&apos; mode"/>
+         </var>
+         <var name="bFast" type="BOOL">
+         <varinfo type="tag" data="Fast command"/>
+         <varinfo type="desc" data="make it faster"/>
+         </var>
+         <var name="Blink1" type="blink">
+         <varinfo type="desc" data="the &quot;blink&quot; function block"/>
+         </var>
+         <var name="bOut" type="BOOL">
+         <varinfo type="tag" data="Output signal"/>
+         <varinfo type="desc" data="main output blinking signal"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte0" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 0"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte1" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 1"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte2" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 2"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte3" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 3"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte4" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 4"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte5" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 5"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte6" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 6"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte7" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 7"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte8" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 8"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte9" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 9"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte10" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 10"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte11" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 11"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte12" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 12"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte13" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 13"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte14" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 14"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte15" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 15"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte16" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 16"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte17" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 17"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte18" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 18"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte19" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 19"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte20" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 20"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte21" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 21"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte22" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 22"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Byte23" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Input: Receive data 0...23 BYTE 23"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit0" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 0"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit1" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 1"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit2" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 2"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit3" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 3"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit4" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 4"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit5" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 5"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit6" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 6"/>
+         </var>
+         <var name="_Slot2_Subslot1_Input0_Bit7" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 2, Subslot 1: 8DI, Input: Digital Inputs .0 -  .7 Bit 7"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit8" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 0"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit9" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 1"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit10" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 2"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit11" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 3"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit12" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 4"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit13" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 5"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit14" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 6"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit15" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 7"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit0" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 0"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit1" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 1"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit2" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 2"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit3" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 3"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit4" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 4"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit5" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 5"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit6" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 6"/>
+         </var>
+         <var name="_Slot3_Subslot1_Input0_Bit7" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 3, Subslot 1: 8DI (+ 8 BIT I), Input: Digital Inputs .0 - .15 Bit 7"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit24" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 0"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit25" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 1"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit26" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 2"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit27" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 3"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit28" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 4"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit29" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 5"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit30" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 6"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit31" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 7"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit16" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 0"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit17" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 1"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit18" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 2"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit19" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 3"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit20" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 4"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit21" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 5"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit22" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 6"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit23" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 7"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit8" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 0"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit9" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 1"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit10" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 2"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit11" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 3"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit12" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 4"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit13" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 5"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit14" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 6"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit15" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 7"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit0" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 0"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit1" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 1"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit2" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 2"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit3" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 3"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit4" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 4"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit5" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 5"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit6" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 6"/>
+         </var>
+         <var name="_Slot4_Subslot1_Input0_Bit7" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 4, Subslot 1: 8DI (+24 BIT I), Input: Digital Inputs .0 - .31 Bit 7"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte0" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 0"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte1" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 1"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte2" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 2"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte3" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 3"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte4" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 4"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte5" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 5"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte6" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 6"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte7" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 7"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte8" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 8"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte9" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 9"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte10" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 10"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte11" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 11"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte12" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 12"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte13" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 13"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte14" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 14"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte15" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 15"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte16" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 16"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte17" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 17"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte18" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 18"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte19" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 19"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte20" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 20"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte21" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 21"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte22" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 22"/>
+         </var>
+         <var name="_Slot1_Subslot1_Output0_Byte23" type="USINT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-370V02.06.xxFW07, Slot 1, Subslot 1: 75x-494 3AI, 3PPM, 1 A, Output: Transmit data 0...23 BYTE 23"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit0" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 0"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit1" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 1"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit2" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 2"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit3" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 3"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit4" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 4"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit5" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 5"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit6" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 6"/>
+         </var>
+         <var name="_Slot1_Subslot1_Input0_Bit7" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 1: 2DI, Subslot 1: 2DI (+ 6 BIT I), Input: Digital Inputs .0 -  .7 Bit 7"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit0" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 0"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit1" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 1"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit2" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 2"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit3" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 3"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit4" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 4"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit5" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 5"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit6" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 6"/>
+         </var>
+         <var name="_Slot2_Subslot1_Output0_Bit7" type="BOOL">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, 750-375025-000V02.03.xxFW06, Slot 2: 4DO, Subslot 1: 4DO (+ 4 BIT O), Output: Digital Outputs .0 -  .7 Bit 7"/>
+         </var>
+         <var name="_131_Slot1_Subslot1_Input0" type="INT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, wago75, Slot 1: 75x-478(/0..-000) 2AI, 0-10 V, Subslot 1: INT16[2] I, Input: Analog Input Channel 0 "/>
+         </var>
+         <var name="_131_Slot1_Subslot1_Input1" type="INT">
+         <varinfo type="desc" data="PROFINET IO controller: undefined, wago75, Slot 1: 75x-478(/0..-000) 2AI, 0-10 V, Subslot 1: INT16[2] I, Input: Analog Input Channel 1 "/>
+         </var>
+      </vargroup>
+      <vargroup name="(Retain)" kind="RETAIN">
+      </vargroup>
+   </variables>
+</K5project>
