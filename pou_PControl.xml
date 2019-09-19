@@ -9,7 +9,7 @@
          <sourceFBD sxcell="16" sycell="16">
             <FBDbreak id="22" dy="6" text="Dont execute this program if bCommand is FALSE" style="3"/>
             <FBDbreak id="23" dy="12" text="Blink main command is always TRUE - Select fast or slow period for blinking (fast is 2 times faster)" style="3"/>
-            <FBDbreak id="20" dy="34" text="The end" style="3"/>
+            <FBDbreak id="20" dy="30" text="The end" style="3"/>
             <FBDcomment id="31" dx="1" dy="1" sx="39" sy="4" style="3">Blinker - STRATON Demonstration project
 (C) 2002 - Version 1.00
 This project demonstrates a simple use of the &quot;BLINK&quot; function block for generating a blinking output signal. The &quot;bFast&quot; variable is used for changing the blinking period.            </FBDcomment>
